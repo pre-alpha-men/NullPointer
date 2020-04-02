@@ -1,0 +1,38 @@
+{
+  "name": "nullpointer",
+  "version": "0.0.1",
+  "description": "a meta editor",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp build & electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pre-alpha-men/NullPointer.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "pre-alpha-men",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pre-alpha-men/NullPointer/issues"
+  },
+  "homepage": "https://github.com/pre-alpha-men/NullPointer#readme",
+  "dependencies": {
+    "electron": "^8.2.0",
+    "gulp": "^4.0.2",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "rollup": "^2.3.2",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-vue": "^5.1.6"
+  }
+}
